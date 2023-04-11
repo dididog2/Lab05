@@ -20,9 +20,9 @@ function App() {
     <BrowserRouter>
       <Wrapper>
         <Routes>
-          <Route path='/' element={<MainPage />} />
-          <Route path='/about' element={<About/>} />
-          <Route path='/notes' element={<Notes/>} />
+          <Route path='/Lab05' element={<MainPage />} />
+          <Route path='/Lab05/about' element={<About/>} />
+          <Route path='/Lab05/notes' element={<Notes/>} />
         </Routes>
       </Wrapper>
     </BrowserRouter>
