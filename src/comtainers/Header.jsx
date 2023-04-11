@@ -33,13 +33,13 @@ export default function Header() {
   return (
     <header className="bg-gray-100">
       <nav className="mx-auto flex items-center justify-start p-4" aria-label="Global">
-        <a href="/" className="-m-1.5 p-1.5">
+        <a className="-m-1.5 p-1.5">
           <img className="h-8 w-auto mr-6" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
         </a>
-        <a href="/" className="text-sm font-semibold leading-6 text-gray-900 mx-6">
+        <a className="text-sm font-semibold leading-6 text-gray-900 mx-6">
           About
         </a>
-        <a href="/" className="text-sm font-semibold leading-6 text-gray-900 mx-6">
+        <a className="text-sm font-semibold leading-6 text-gray-900 mx-6">
           Notes
         </a>
       </nav>
